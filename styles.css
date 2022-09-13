@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    gap: 2rem;
+    align-items: center; 
+}
+
+#layout{
+    display: flex;
+    flex-wrap: wrap;
+    width: 31%;
+    height: 52vh;
+    /* background-color: rgb(78, 78, 78); */
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.cell{
+    width:30%;
+    height: 30%;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    text-align: center;
+}
+
+.rh-cell{
+    border-bottom: 2px solid black;
+}
+
+.vh-cell{
+    border-right: 2px solid black;
+}
+
+.win{
+    background-color: orange;
+    color: red;
+}
+
